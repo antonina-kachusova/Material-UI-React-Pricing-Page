@@ -212,7 +212,7 @@ This is a common and convenient way to style Material UI projects.
 ## Getting Started
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/lesson-63-mat-ui.git
+git clone https://github.com/antonina-kachusova/Material-UI-React-Pricing-Page.git
 cd material-ui-react-pricing-page
 ```
 ### 2. Install dependencies
