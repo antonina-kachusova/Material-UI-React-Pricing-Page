@@ -139,8 +139,8 @@ const packages = [
 ```
 The application uses `.map()` to render a pricing card for each object in the array.
 ```js
-{packages.map((pkg) => (
-  <Grid item xs={12} sm={6} md={4} key={pkg.name}>
+ {packages.map((pkg) => (
+ <Grid size={{ xs: 12, sm: 6, md: 4 }} key={pkg.name}>
     {/* Pricing card content */}
   </Grid>
 ))}
