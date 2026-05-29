@@ -129,9 +129,9 @@ function App() {
         </Box>
 
         <Box id="pricing" sx={{ scrollMarginTop: 24 }}>
-          <Grid container spacing={4} alignItems="stretch">
+          <Grid container spacing={4} sx={{ width: '100%' }}>
             {packages.map((pkg) => (
-              <Grid item xs={12} sm={6} md={4} key={pkg.name}>
+              <Grid size={{ xs: 12, sm: 6, md: 4 }} key={pkg.name}>
                 <Card
                   elevation={pkg.popular ? 6 : 2}
                   sx={{
