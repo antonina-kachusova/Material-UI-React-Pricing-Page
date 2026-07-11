@@ -1,4 +1,6 @@
 # Material UI React Pricing Page
+## Live Demo
+[View Live Site](https://material-ui-react-pricing-page.vercel.app/)
 
 A small React application created to practice building a modern pricing page with Material UI components.  
 The project includes a navigation bar, hero section, responsive pricing cards, a popular plan badge, feature lists, buttons, and a footer.
